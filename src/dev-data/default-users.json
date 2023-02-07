@@ -1,0 +1,42 @@
+[{
+  "name": "The Manager",
+  "email": "themanager@gmail.com",
+  "password": "0786",
+  "passwordConfirm": "0786",
+  "userRole": "super-admin",
+  "status": "active"
+ },
+ {
+   "name": "admin",
+   "email": "admin@gmail.com",
+   "password": "0786",
+   "passwordConfirm": "0786",
+   "userRole": "admin",
+   "status": "active"
+  },
+  {
+   "name": "user",
+   "email": "user@gmail.com",
+   "password": "0786",
+   "passwordConfirm": "0786",
+   "userRole": "user",
+   "status": "active" 
+  },
+  {
+   "name": "vendor",
+   "email": "vendor@gmail.com",
+   "password": "0786",
+   "passwordConfirm": "0786",
+   "userRole": "vendor",
+   "status": "active",
+   "vendorCategoryId": 1 
+  },
+  {
+    "name": "guest",
+    "email": "guest@gmail.com",
+    "password": "0786",
+    "passwordConfirm": "0786",
+    "userRole": "guest",
+    "status": "active" 
+   }
+]

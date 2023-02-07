@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "fonts/font.scss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+$deviceMinWidth: 768px;
+$deviceMaxWidth: 1024px;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  padding-right: 2px !important;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+  padding-left: 2px !important;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #f85757 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #f85757 !important;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+  stroke: #fdcece !important;
+}
+
+.CircularProgressbar {
+  height: 80% !important;
+  width: 80% !important;
+}
+
+.StepButton-d2-1-2-8.completed {
+  background-color: #f85757 !important;
+  padding: 24px !important;
+}
+
+.StepButton-d6-1-2-18.completed {
+  background-color: #f85757 !important;
+  padding: 24px !important;
+}
+
+.StepButton-d10-1-2-32.active {
+  background-color: #fff !important;
+  border: 2px solid #f85757 !important;
+  padding: 24px !important;
+}
+
+.StepButton-d14-1-2-44 {
+  padding: 24px !important;
+}
+
+.StepButtonContent-d11-1-2-33.active {
+  color: #f85757 !important;
+  font-weight: 500 !important;
+}
+
+input[type="checkbox"] {
+  accent-color: #f85757 !important;
+  height: 16px;
+  width: 16px;
+}
+
+.save .form-floating {
+  width: 200px !important;
+}
+
+.save .form-floating>.form-select {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+// .StepButton-d38-0-2-108.completed{
+//   background-color: #F85757 !important;
+// }
+// .StepButton-d42-0-2-116.completed{
+//   background-color: #F85757 !important;
+// }
+.slick-prev:before,
+.slick-next:before {
+  color: #f85757 !important;
+  // border: 1px solid #F85757 !important;
+  // background:#fff !important;
+  font-size: 40px !important;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.carousel .slick-next {
+  // color: #F85757 !important;
+  // padding: 20px !important;
+  // border: 1px solid #F85757 !important;
+  top: -17% !important;
+  right: 0 !important;
+}
+
+.carousel .slick-prev {
+  top: -17% !important;
+  left: 94% !important;
+}
+
+.carousel .slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.9 !important;
+}
+
+.slick-dots li button:before {
+  font-size: 14px !important;
+  color: #f85757 !important;
+}
+
+.btstrp .form-control {
+  border: none !important;
+  border-radius: 15px 0 0 15px;
+}
+
+.btstrp .form-select {
+  border: none !important;
+  border-left: 1px solid #fa5856 !important;
+  border-radius: 0 0px 0px 0;
+  background-image: none !important;
+}
+
+.rsvptable table {
+  @media (max-width: 767px) {
+    display: block;
+    ;
+  }
+}
+
+
+
+
+// .rsvptable td {
+//   padding: 1rem 1rem !important;
+// }
+.rsvptable .form-floating>.form-select {
+  padding-top: 0.5em !important;
+}
+
+.rsvptable .form-floating>.form-control,
+.form-floating>.form-control-plaintext,
+.form-floating>.form-select {
+  height: 7% !important;
+}
+.page-link:hover{
+     background: #fef0f0 !important;
+     border-color: #f85757 !important ;
+  
+}
+.pagination{
+  --bs-pagination-border-color: #f85757 !important;
+}
+.rsvptable .form-select {
+  width: 80%;
+  float: right;
+  background-image: url("../public/assests/RSVP/bi_filter.svg");
+  background-size: 20px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    float: left;
+  }
+
+  @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth) {
+    width: 100%;
+    float: left;
+
+  }
+}
+
+.page-link.active,
+.active>.page-link {
+  background: #f85757 !important;
+  border-color: #f85757 !important;
+  color: #fff !important;
+}
+
+.page-link {
+  color: #f85757 !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(254, 1, 1, 0.25) !important;
+  border-color: #f85757 !important;
+}
+.form-select:focus{
+  box-shadow: 0 0 0 0.25rem rgba(254, 1, 1, 0.25) !important;
+  border-color: #f85757 !important;
+}
+ .opt:hover{
+  background-color: #fa5856 !important;
+}
+
+.checkForms .form-control {
+  padding: 0.75rem 0.75rem !important;
+}
+
+label {
+  font-family: "Gilroy-Medium" !important;
+  font-size: 17px !important;
+  line-height: 20px !important;
+  color: #666666 !important;
+}
+
+.btn-outline-danger {
+  border: 1px solid #f85757 !important;
+  border-radius: 100px !important;
+  width: 180px !important;
+  height: 48px;
+  text-transform: uppercase;
+}
+ul{
+  padding-left: 0 !important;
+}
+td,
+th {
+  border-bottom: 0px !important;
+  padding: 8px !important;
+}
+
+td {
+  font-family: "Gilroy-Regular" !important;
+  font-size: 14px !important;
+  line-height: 31px !important;
+  color: #666 !important;
+}
+.modal-content{
+  border-radius:1.5rem !important;
+}
+.pro-modal label{
+  font-family: "Gilroy-SemiBold";
+  font-size: 12px !important;
+  line-height: 19px;
+  color: #808080 !important;
+}
+  .container-sm{
+@media (min-width: 576px){
+  max-width: 100% !important;
+}
+  
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}

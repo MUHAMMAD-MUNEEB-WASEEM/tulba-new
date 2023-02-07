@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "../fonts/font.scss";
+
+.loginin_container {
+  font-family: $GiloryRegular;
+  min-height: 100vh;
+  .login_nested {
+    width: 550px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    // margin: 0 auto;
+    .login_heading {
+      h1 {
+        font-family: $GiloryBold;
+      }
+      p {
+        font-family: $GiloryRegular;
+        color: #808080;
+      }
+    }
+    .soical_links {
+      p {
+        font-family: $GiloryBold;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #f85757;
+      }
+
+      .social_data {
+        background: #f4f4f5;
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        padding: 10px;
+        width: 150px;
+        @media (max-width: 400px) {
+          width: 100%;
+        }
+      }
+      div {
+        span {
+          //    font-family: ;
+          font-family: "Poppins", sans-serif;
+        }
+      }
+      @media (max-width: 400px) {
+        // padding: 8px 0px;
+        div {
+          flex-wrap: wrap;
+        }
+      }
+    }
+
+    .or_section {
+      :nth-child(1) {
+        width: 150px;
+        height: 0px;
+        opacity: 0.1;
+        /* Text */
+
+        border: 1px solid #030229;
+        // background-color:  #030229;
+      }
+      :nth-child(3) {
+        width: 150px;
+        height: 0px;
+        opacity: 0.1;
+        /* Text */
+
+        border: 1px solid #030229;
+        // background-color:  #030229;
+      }
+      p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+      }
+    }
+    .form_login {
+      .login_inputbox {
+        padding: 8px 14px;
+        input {
+          width: 100%;
+          padding: 12px 8px;
+          outline: none;
+          font-size: 16px;
+          background: #ffffff;
+          border: 0.2px solid #cccccc;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          border-radius: 10px;
+          font-family: $GiloryRegular;
+          letter-spacing: 0.4px;
+          &:hover {
+            box-shadow: 0 0 0 4px rgb(248 87 87 / 14%);
+          }
+        }
+        label {
+          padding-left: 4px;
+          padding-bottom: 8px;
+          font-style: normal;
+          font-weight: 200;
+          font-size: 16.1004px;
+          line-height: 20px;
+          font-family: $GiloryMedium;
+          color: #808080;
+        }
+        @media (max-width: 400px) {
+          padding: 8px 0px;
+        }
+      }
+
+        // btnLinks
+        .btnlink{
+          label{
+            font-family: $GiloryRegular;
+          }
+          input[type=checkbox]:checked{
+              background-color: #f85757;
+              color: #f85757;
+          }
+          a{
+            color: #f85757;
+            font-family: $GiloryBold;
+          }
+          @media (max-width: 400px) {
+            padding: 8px 0px !important;
+            label{
+              font-size: 14px;
+            }
+            a{
+              font-size: 14px;
+            }
+          }
+          
+        }
+      .btn_login {
+        padding: 8px 14px;
+        button {
+          width: 100%;
+          padding: 18px 0px !important;
+          background: #f85757;
+          border: 0px solid #f85757 !important;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
+          border-radius: 100px;
+          outline: none !important;
+          font-size: 16px;
+          line-height: 19px;
+          color: #ffffff;
+          font-family: $GiloryBold;
+        }
+        @media (max-width: 400px) {
+          padding: 8px 0px;
+        }
+      }
+      @media (max-width: 400px) {
+        padding: 8px 0px;
+      }
+    }
+
+    .login_link {
+      color: #000000;
+
+      a {
+        color: #f85757;
+        font-size: 16px;
+        line-height: 19px;
+        font-family: $GiloryMedium;
+      }
+      @media (max-width: 400px) {
+        font-size: 14px;
+        a{
+          font-size: 14px;
+        }
+      }
+    }
+    @media (max-width: 550px) {
+      width: 90%;
+      padding: 0.8rem !important;
+    }
+  }
+}

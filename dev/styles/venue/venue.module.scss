@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "../fonts/font.scss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.venue {
+  h1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+  }
+  p {
+    font-family: $GiloryMedium;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .img {
+    transform: translateX(-30%);
+  }
+}
+.venue_temp {
+  h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    color: #000000;
+  }
+  span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    // line-height: 24px;
+    color: #666666;
+  }
+  .box {
+    background: #ffffff;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    width: 370px;
+    height: 170px;
+    padding: 16px;
+  }
+  h5{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+color: #000000;
+  }
+  .para{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 5px;
+color: #4D4D4D;
+  }
+}

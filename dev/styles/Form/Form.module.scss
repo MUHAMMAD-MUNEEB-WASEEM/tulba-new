@@ -1,0 +1,84 @@
+.forms {
+  // border: 2px solid lime;
+  h1 {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+  }
+  p {
+    font-family: "Gilroy-Regular";
+    font-size: 20px;
+    line-height: 30px;
+    color: #666666;
+  }
+  .check_btn {
+    background: #f85757 !important;
+    border: 2px solid #f85757;
+    border-radius: 100px;
+    height: 60px;
+    width: 70%;
+    font-size: 24px;
+    font-family: "Gilroy-SemiBold";
+
+  }
+  .check_btn1 {
+    background: #f85757 !important;
+    border: 2px solid #f85757;
+    border-radius: 100px;
+    height: 60px;
+    width: 100%;
+    font-size: 24px;
+    font-family: "Gilroy-SemiBold";
+  }
+  .orderSummary {
+    background: #f7f7f8;
+    border-radius: 15px;
+    width: 80%;
+    height: 84%;
+    margin-left: 70px;
+    @media (max-width: 767px) {
+      margin-left: 3px;
+      width: 100%;
+    }
+  }
+  .acc {
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    line-height: 23px;
+    color: #000;
+    font-weight: 600;
+  }
+  a {
+    font-family: "Gilroy-Medium";
+    font-size: 20px;
+    line-height: 23px;
+    color: #f85757;
+    font-weight: 600;
+  }
+}
+
+
+.payment {
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  width: 90%;
+  height: 100%;
+
+  
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+  h3 {
+    font-family: "Gilroy-Bold";
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000000;
+    @media (max-width: 767px) {
+      font-size: 22px;
+    }
+  }
+}

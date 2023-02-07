@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'gilorymedium';
+    src:  url('./Gilroy-Medium.ttf');
+  }
+  @font-face {
+    font-family: 'giloryRegular';
+    src:  url('./Gilroy-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'gilorybold';
+    src: url('./Gilroy-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'gilorysemibold';
+    src: url('./Gilroy-SemiBold.ttf');
+  }
+  $GiloryMedium: 'gilorymedium';
+  $GiloryRegular: 'giloryRegular';
+  $GiloryBold: 'gilorybold';
+  $GilorySemiBold: 'gilorysemibold';
+  

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "../fonts/font.scss";
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+$deviceMinWidth: 768px;
+$deviceMaxWidth: 1024px;
+
+.icon {
+  background: #fef0f0;
+  height: 40px;
+  width: 40px;
+  color: #f85757;
+  border-radius: 100px;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.head {
+  font-family: $GiloryBold;
+  font-size: 22px;
+  // line-height: 47px;
+  color: #000000;
+  margin-top: 9px;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: $GiloryRegular;
+  font-size: 10px;
+  // line-height: 19px;
+  color: #404040;
+  margin-left: 40px;
+  margin-bottom: 20px !important;
+}
+.closeButton {
+  background-color: #f85757;
+  width: 30px;
+  height: 30px;
+  color: #fef0f0;
+  font-weight: bolder;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  &:hover {
+    cursor: pointer;
+    scale: 96%;
+    box-shadow: 2px 4px 14px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 2px 4px 14px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 2px 4px 14px 3px rgba(0, 0, 0, 0.25);
+  }
+}
+.btn {
+  background: #f85757;
+  border: 0.7px solid #f85757;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 500;
+  width: 200px;
+  height: 40px;
+  margin: 16px;
+  text-align: center;
+
+  &:hover {
+    color: #f85757;
+    background: #fef0f0;
+    border: none;
+    border: 0.7px solid #f85757;
+  }
+
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+
+  @media only screen and (min-device-width: $deviceMinWidth) and (max-device-width: $deviceMaxWidth) {
+    width: 90%;
+  }
+}
